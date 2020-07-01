@@ -10,4 +10,4 @@ router.post("/list-all-skus",listAllSkusAndProductsId.index);
 router.get("/list-products",listProduct.index);
 router.get("/list-sku",listProduct.index);
 
-module.exports = router;
+module.exports = router;  
