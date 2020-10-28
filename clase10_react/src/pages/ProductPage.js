@@ -22,9 +22,9 @@ export default function ProductPage({ match }) {
       <Link to="/ProductList">
         <a
           href="#0"
-          class="f5 no-underline black bg-animate hover-bg-black hover-white inline-flex items-center pa3 ba border-box mr4"
+          className="f5 no-underline black bg-animate hover-bg-black hover-white inline-flex items-center pa3 ba border-box mr4"
         >
-          <span class="pl1">Back</span>
+          <span className="pl1">Back</span>
         </a>
       </Link>
       {products.map((product) => {
